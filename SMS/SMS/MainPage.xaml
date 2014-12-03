@@ -18,4 +18,9 @@
         <TextBlock HorizontalAlignment="Left" Margin="574,532,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" x:Name="txtMsg"/>
 
     </Grid>
+    <Page.BottomAppBar>
+        <CommandBar>           
+            <AppBarButton HorizontalAlignment="Center" Icon="Help" Label="About" Click="AppBarButton_Click"></AppBarButton>
+        </CommandBar>
+    </Page.BottomAppBar>
 </Page>

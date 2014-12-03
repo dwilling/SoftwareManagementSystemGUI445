@@ -98,5 +98,11 @@ namespace SMS
             }
 
         }
+
+        private void AppBarButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (this.Frame != null)
+                this.Frame.Navigate(typeof(About), null);
+        }
     }
 }
